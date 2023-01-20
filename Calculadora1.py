@@ -59,7 +59,7 @@ while True:
                 number_two = input("Invalid number. Try again: ")
                 number_two = check_user_input(number_two)
 
-            Operation_Sum = number_one - number_two
+            Operation_Subtra = number_one - number_two
             print('The subtraction is: ' + str(Operation_Sum))
 
         case 3:
@@ -75,7 +75,7 @@ while True:
                 number_two = input("Invalid number. Try again: ")
                 number_two = check_user_input(number_two)
 
-            Operation_Sum = number_one * number_two
+            Operation_Multi = number_one * number_two
             print('The product is: ' + str(Operation_Sum))
 
         case 4:
@@ -91,10 +91,10 @@ while True:
                 number_two = input("Invalid number. Try again: ")
                 number_two = check_user_input(number_two)
 
-            Operation_Sum = number_one / number_two
+            Operation_Divide = number_one / number_two
             print('The division is: ' + str(Operation_Sum))
 
         case 5:
             break
 
-print()
+print("OFF")
