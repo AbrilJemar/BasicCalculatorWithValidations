@@ -1,25 +1,11 @@
-def check_user_input(x):
-    try:
-        # Convert it into integer
-        val = int(x)
-    except ValueError:
-        try:
-            # Convert it into float
-            val = float(x)
-        except ValueError:
-            val = x
-
-    return (val)
-
-
 while True:
     print("""
     Tell me, what do you want to do?
     
-    1) Add the two numbers
-    2) Subtract the two numbers
-    3) Multiply the two numbers
-    4) Divide the two numbers
+    1) Add of two numbers
+    2) Subtract of two numbers
+    3) Multiply of two numbers
+    4) Divide of two numbers
     5) Turn off the calculator
 
     """)
@@ -60,7 +46,7 @@ while True:
                 number_two = check_user_input(number_two)
 
             Operation_Subtra = number_one - number_two
-            print('The subtraction is: ' + str(Operation_Sum))
+            print('The subtraction is: ' + str(Operation_Subtra))
 
         case 3:
             number_one = input("Enter first number: ")
@@ -76,7 +62,7 @@ while True:
                 number_two = check_user_input(number_two)
 
             Operation_Multi = number_one * number_two
-            print('The product is: ' + str(Operation_Sum))
+            print('The product is: ' + str(Operation_Multi))
 
         case 4:
             number_one = input("Enter first number: ")
@@ -92,7 +78,7 @@ while True:
                 number_two = check_user_input(number_two)
 
             Operation_Divide = number_one / number_two
-            print('The division is: ' + str(Operation_Sum))
+            print('The division is: ' + str(Operation_Divide))
 
         case 5:
             break
